@@ -4,7 +4,8 @@ import Paragraph from "../common/Paragraph";
 // import { Link } from "react-router-dom";
 import styles from "./BlogComponent.module.scss";
 function BlogComponent(props) {
-  const blog = props.blog.data[0];
+  console.log(props.blog);
+  const blog = props.blog;
   return (
     // <h1>sumil </h1>
     <div className={styles["blog"]}>

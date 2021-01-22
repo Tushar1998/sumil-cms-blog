@@ -15,7 +15,7 @@ function Blog(props) {
       <header>
         <Navigation data={props.header} />
       </header>
-      <BlogComponent blog={props} />
+      <BlogComponent blog={props.data[0]} />
       <Footer data={props.footer} />
     </div>
   );
